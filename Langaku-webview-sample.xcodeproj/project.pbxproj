@@ -16,6 +16,7 @@
 		F910D08D27A2877F00BEDA67 /* Langaku_webview_sampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F910D08C27A2877F00BEDA67 /* Langaku_webview_sampleTests.swift */; };
 		F910D09727A2877F00BEDA67 /* Langaku_webview_sampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F910D09627A2877F00BEDA67 /* Langaku_webview_sampleUITests.swift */; };
 		F910D09927A2877F00BEDA67 /* Langaku_webview_sampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F910D09827A2877F00BEDA67 /* Langaku_webview_sampleUITestsLaunchTests.swift */; };
+		F910D0A627A2A4D800BEDA67 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = F910D0A527A2A4D800BEDA67 /* index.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		F910D09227A2877F00BEDA67 /* Langaku-webview-sampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Langaku-webview-sampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F910D09627A2877F00BEDA67 /* Langaku_webview_sampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Langaku_webview_sampleUITests.swift; sourceTree = "<group>"; };
 		F910D09827A2877F00BEDA67 /* Langaku_webview_sampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Langaku_webview_sampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F910D0A527A2A4D800BEDA67 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				F910D07527A2877F00BEDA67 /* AppDelegate.swift */,
+				F910D0A527A2A4D800BEDA67 /* index.html */,
 				F910D07727A2877F00BEDA67 /* SceneDelegate.swift */,
 				F910D07927A2877F00BEDA67 /* ViewController.swift */,
 				F910D07B27A2877F00BEDA67 /* Main.storyboard */,
@@ -232,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F910D08227A2877F00BEDA67 /* LaunchScreen.storyboard in Resources */,
+				F910D0A627A2A4D800BEDA67 /* index.html in Resources */,
 				F910D07F27A2877F00BEDA67 /* Assets.xcassets in Resources */,
 				F910D07D27A2877F00BEDA67 /* Main.storyboard in Resources */,
 			);
