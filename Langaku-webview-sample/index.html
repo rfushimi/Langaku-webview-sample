@@ -4,12 +4,19 @@
         * { font-size: 64px; font-family: monospace; }
     </style>
     <script>
-        function onComplete() {
+        function onClickOpenComicViewer() {
             let data = JSON.stringify({
-                   completed: true
+                   "next_action": "ComicViewer"
             })
             window.webkit.messageHandlers.onComplete.postMessage(data)
         }
+        function onComplete() {
+            let data = JSON.stringify({
+                   "next_action": "Complete"
+            })
+            window.webkit.messageHandlers.onComplete.postMessage(data)
+        }
+
         window.addEventListener("load", function(){
             document.getElementById("cookies").innerHTML = document.cookie.length ? document.cookie : "(empty)";
             console.log(document.cookie);
@@ -22,6 +29,7 @@
             <p>Tutorial</p>
             <p>Cookie:</p>
             <p id="cookies"></p>
+            <p><button onClick="onClickOpenComicViewer();">Open Comic Viewer</button></p>
             <p><button onClick="onComplete();">Complete</button></p>
         </center>
     </main>

@@ -17,12 +17,12 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jZb-Y1-hHk">
-                                <rect key="frame" x="138" y="151" width="138" height="31"/>
+                                <rect key="frame" x="138" y="154" width="138" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Start Tutorial"/>
                                 <connections>
-                                    <segue destination="IvV-qG-gBv" kind="show" id="Jv4-D0-KxD"/>
+                                    <segue destination="IvV-qG-gBv" kind="presentation" id="Aiu-Jv-r7t"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -34,10 +34,10 @@
             </objects>
             <point key="canvasLocation" x="200.00000000000003" y="129.91071428571428"/>
         </scene>
-        <!--Web View Controller-->
+        <!--Tutorial Web View Controller-->
         <scene sceneID="XNz-Mx-tsx">
             <objects>
-                <viewController id="IvV-qG-gBv" customClass="WebViewController" customModule="Langaku_webview_sample" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="IvV-qG-gBv" customClass="TutorialWebViewController" customModule="Langaku_webview_sample" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GOs-v1-iWQ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -48,7 +48,40 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YGk-MK-IyR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="943" y="130"/>
+            <point key="canvasLocation" x="987" y="130"/>
+        </scene>
+        <!--Comic Viewer View Controller-->
+        <scene sceneID="TFe-CJ-Rmx">
+            <objects>
+                <viewController storyboardIdentifier="ComicViewerViewController" id="3rI-AK-wFn" customClass="ComicViewerViewController" customModule="Langaku_webview_sample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XDi-hs-0tk">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ComicViewer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Fg-lC-MYl">
+                                <rect key="frame" x="157" y="128" width="100" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DKJ-Be-CkX">
+                                <rect key="frame" x="157" y="211" width="103" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Dismiss"/>
+                                <connections>
+                                    <action selector="dismiss:" destination="3rI-AK-wFn" eventType="touchUpInside" id="esc-Nz-I4I"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="8ob-4F-afo"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gYq-8e-N4E" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1757.9710144927537" y="129.91071428571428"/>
         </scene>
     </scenes>
     <resources>

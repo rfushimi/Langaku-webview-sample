@@ -7,6 +7,13 @@
 
 import UIKit
 import WebKit
+
+extension UIViewController {
+    @IBAction func dismiss(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
+}
+
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -14,7 +21,7 @@ class ViewController: UIViewController {
     }
 }
 
-class WebViewController: UIViewController, WKScriptMessageHandler {
+class TutorialWebViewController: UIViewController, WKScriptMessageHandler {
     override func viewDidLoad() {
         let configuration = WKWebViewConfiguration()
         configuration.userContentController.add(self, name: "onComplete")
@@ -56,7 +63,28 @@ class WebViewController: UIViewController, WKScriptMessageHandler {
     }
 
     func userContentController(_ userContentController: WKUserContentController, didReceive message: WKScriptMessage) {
+        let body: String = message.body as! String
         print(message.body)
-        self.dismiss(animated: true, completion: nil)
+        let messageData: Data = body.data(using: String.Encoding.utf8)!
+        let messageItems = try! JSONSerialization.jsonObject(with: messageData) as! Dictionary<String, Any>
+        let nextActon = messageItems["next_action"] as! String
+        switch (nextActon) {
+        case "ComicViewer":
+            let storyBoard = UIStoryboard(name: "Main", bundle: nil)
+            let controller = storyBoard.instantiateViewController(identifier: "ComicViewerViewController")
+            self.present(controller, animated: true, completion: nil)
+        case "Complete":
+            self.dismiss(self)
+        default:
+            print("undefined")
+        }
+    }
+}
+
+class ComicViewerViewController: UIViewController {
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view.
+        self.view.backgroundColor = .white
     }
 }
