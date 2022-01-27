@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F910D07627A2877F00BEDA67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F910D07527A2877F00BEDA67 /* AppDelegate.swift */; };
+		F910D07827A2877F00BEDA67 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F910D07727A2877F00BEDA67 /* SceneDelegate.swift */; };
+		F910D07A27A2877F00BEDA67 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F910D07927A2877F00BEDA67 /* ViewController.swift */; };
+		F910D07D27A2877F00BEDA67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F910D07B27A2877F00BEDA67 /* Main.storyboard */; };
+		F910D07F27A2877F00BEDA67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F910D07E27A2877F00BEDA67 /* Assets.xcassets */; };
+		F910D08227A2877F00BEDA67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F910D08027A2877F00BEDA67 /* LaunchScreen.storyboard */; };
+		F910D08D27A2877F00BEDA67 /* Langaku_webview_sampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F910D08C27A2877F00BEDA67 /* Langaku_webview_sampleTests.swift */; };
+		F910D09727A2877F00BEDA67 /* Langaku_webview_sampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F910D09627A2877F00BEDA67 /* Langaku_webview_sampleUITests.swift */; };
+		F910D09927A2877F00BEDA67 /* Langaku_webview_sampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F910D09827A2877F00BEDA67 /* Langaku_webview_sampleUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F910D08927A2877F00BEDA67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F910D06A27A2877F00BEDA67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F910D07127A2877F00BEDA67;
+			remoteInfo = "Langaku-webview-sample";
+		};
+		F910D09327A2877F00BEDA67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F910D06A27A2877F00BEDA67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F910D07127A2877F00BEDA67;
+			remoteInfo = "Langaku-webview-sample";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F910D07227A2877F00BEDA67 /* Langaku-webview-sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Langaku-webview-sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F910D07527A2877F00BEDA67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F910D07727A2877F00BEDA67 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F910D07927A2877F00BEDA67 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F910D07C27A2877F00BEDA67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F910D07E27A2877F00BEDA67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F910D08127A2877F00BEDA67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F910D08327A2877F00BEDA67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F910D08827A2877F00BEDA67 /* Langaku-webview-sampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Langaku-webview-sampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F910D08C27A2877F00BEDA67 /* Langaku_webview_sampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Langaku_webview_sampleTests.swift; sourceTree = "<group>"; };
+		F910D09227A2877F00BEDA67 /* Langaku-webview-sampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Langaku-webview-sampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F910D09627A2877F00BEDA67 /* Langaku_webview_sampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Langaku_webview_sampleUITests.swift; sourceTree = "<group>"; };
+		F910D09827A2877F00BEDA67 /* Langaku_webview_sampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Langaku_webview_sampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F910D06F27A2877F00BEDA67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F910D08527A2877F00BEDA67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F910D08F27A2877F00BEDA67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F910D06927A2877F00BEDA67 = {
+			isa = PBXGroup;
+			children = (
+				F910D07427A2877F00BEDA67 /* Langaku-webview-sample */,
+				F910D08B27A2877F00BEDA67 /* Langaku-webview-sampleTests */,
+				F910D09527A2877F00BEDA67 /* Langaku-webview-sampleUITests */,
+				F910D07327A2877F00BEDA67 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F910D07327A2877F00BEDA67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F910D07227A2877F00BEDA67 /* Langaku-webview-sample.app */,
+				F910D08827A2877F00BEDA67 /* Langaku-webview-sampleTests.xctest */,
+				F910D09227A2877F00BEDA67 /* Langaku-webview-sampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F910D07427A2877F00BEDA67 /* Langaku-webview-sample */ = {
+			isa = PBXGroup;
+			children = (
+				F910D07527A2877F00BEDA67 /* AppDelegate.swift */,
+				F910D07727A2877F00BEDA67 /* SceneDelegate.swift */,
+				F910D07927A2877F00BEDA67 /* ViewController.swift */,
+				F910D07B27A2877F00BEDA67 /* Main.storyboard */,
+				F910D07E27A2877F00BEDA67 /* Assets.xcassets */,
+				F910D08027A2877F00BEDA67 /* LaunchScreen.storyboard */,
+				F910D08327A2877F00BEDA67 /* Info.plist */,
+			);
+			path = "Langaku-webview-sample";
+			sourceTree = "<group>";
+		};
+		F910D08B27A2877F00BEDA67 /* Langaku-webview-sampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				F910D08C27A2877F00BEDA67 /* Langaku_webview_sampleTests.swift */,
+			);
+			path = "Langaku-webview-sampleTests";
+			sourceTree = "<group>";
+		};
+		F910D09527A2877F00BEDA67 /* Langaku-webview-sampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F910D09627A2877F00BEDA67 /* Langaku_webview_sampleUITests.swift */,
+				F910D09827A2877F00BEDA67 /* Langaku_webview_sampleUITestsLaunchTests.swift */,
+			);
+			path = "Langaku-webview-sampleUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F910D07127A2877F00BEDA67 /* Langaku-webview-sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F910D09C27A2877F00BEDA67 /* Build configuration list for PBXNativeTarget "Langaku-webview-sample" */;
+			buildPhases = (
+				F910D06E27A2877F00BEDA67 /* Sources */,
+				F910D06F27A2877F00BEDA67 /* Frameworks */,
+				F910D07027A2877F00BEDA67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Langaku-webview-sample";
+			productName = "Langaku-webview-sample";
+			productReference = F910D07227A2877F00BEDA67 /* Langaku-webview-sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F910D08727A2877F00BEDA67 /* Langaku-webview-sampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F910D09F27A2877F00BEDA67 /* Build configuration list for PBXNativeTarget "Langaku-webview-sampleTests" */;
+			buildPhases = (
+				F910D08427A2877F00BEDA67 /* Sources */,
+				F910D08527A2877F00BEDA67 /* Frameworks */,
+				F910D08627A2877F00BEDA67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F910D08A27A2877F00BEDA67 /* PBXTargetDependency */,
+			);
+			name = "Langaku-webview-sampleTests";
+			productName = "Langaku-webview-sampleTests";
+			productReference = F910D08827A2877F00BEDA67 /* Langaku-webview-sampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F910D09127A2877F00BEDA67 /* Langaku-webview-sampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F910D0A227A2877F00BEDA67 /* Build configuration list for PBXNativeTarget "Langaku-webview-sampleUITests" */;
+			buildPhases = (
+				F910D08E27A2877F00BEDA67 /* Sources */,
+				F910D08F27A2877F00BEDA67 /* Frameworks */,
+				F910D09027A2877F00BEDA67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F910D09427A2877F00BEDA67 /* PBXTargetDependency */,
+			);
+			name = "Langaku-webview-sampleUITests";
+			productName = "Langaku-webview-sampleUITests";
+			productReference = F910D09227A2877F00BEDA67 /* Langaku-webview-sampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F910D06A27A2877F00BEDA67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					F910D07127A2877F00BEDA67 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					F910D08727A2877F00BEDA67 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = F910D07127A2877F00BEDA67;
+					};
+					F910D09127A2877F00BEDA67 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = F910D07127A2877F00BEDA67;
+					};
+				};
+			};
+			buildConfigurationList = F910D06D27A2877F00BEDA67 /* Build configuration list for PBXProject "Langaku-webview-sample" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F910D06927A2877F00BEDA67;
+			productRefGroup = F910D07327A2877F00BEDA67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F910D07127A2877F00BEDA67 /* Langaku-webview-sample */,
+				F910D08727A2877F00BEDA67 /* Langaku-webview-sampleTests */,
+				F910D09127A2877F00BEDA67 /* Langaku-webview-sampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F910D07027A2877F00BEDA67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F910D08227A2877F00BEDA67 /* LaunchScreen.storyboard in Resources */,
+				F910D07F27A2877F00BEDA67 /* Assets.xcassets in Resources */,
+				F910D07D27A2877F00BEDA67 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F910D08627A2877F00BEDA67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F910D09027A2877F00BEDA67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F910D06E27A2877F00BEDA67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F910D07A27A2877F00BEDA67 /* ViewController.swift in Sources */,
+				F910D07627A2877F00BEDA67 /* AppDelegate.swift in Sources */,
+				F910D07827A2877F00BEDA67 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F910D08427A2877F00BEDA67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F910D08D27A2877F00BEDA67 /* Langaku_webview_sampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F910D08E27A2877F00BEDA67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F910D09927A2877F00BEDA67 /* Langaku_webview_sampleUITestsLaunchTests.swift in Sources */,
+				F910D09727A2877F00BEDA67 /* Langaku_webview_sampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F910D08A27A2877F00BEDA67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F910D07127A2877F00BEDA67 /* Langaku-webview-sample */;
+			targetProxy = F910D08927A2877F00BEDA67 /* PBXContainerItemProxy */;
+		};
+		F910D09427A2877F00BEDA67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F910D07127A2877F00BEDA67 /* Langaku-webview-sample */;
+			targetProxy = F910D09327A2877F00BEDA67 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F910D07B27A2877F00BEDA67 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F910D07C27A2877F00BEDA67 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F910D08027A2877F00BEDA67 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F910D08127A2877F00BEDA67 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F910D09A27A2877F00BEDA67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F910D09B27A2877F00BEDA67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F910D09D27A2877F00BEDA67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9V4Y37J8T8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Langaku-webview-sample/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rfushimi.Langaku-webview-sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F910D09E27A2877F00BEDA67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9V4Y37J8T8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Langaku-webview-sample/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rfushimi.Langaku-webview-sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F910D0A027A2877F00BEDA67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9V4Y37J8T8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rfushimi.Langaku-webview-sampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Langaku-webview-sample.app/Langaku-webview-sample";
+			};
+			name = Debug;
+		};
+		F910D0A127A2877F00BEDA67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9V4Y37J8T8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rfushimi.Langaku-webview-sampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Langaku-webview-sample.app/Langaku-webview-sample";
+			};
+			name = Release;
+		};
+		F910D0A327A2877F00BEDA67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9V4Y37J8T8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rfushimi.Langaku-webview-sampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Langaku-webview-sample";
+			};
+			name = Debug;
+		};
+		F910D0A427A2877F00BEDA67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9V4Y37J8T8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rfushimi.Langaku-webview-sampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Langaku-webview-sample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F910D06D27A2877F00BEDA67 /* Build configuration list for PBXProject "Langaku-webview-sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F910D09A27A2877F00BEDA67 /* Debug */,
+				F910D09B27A2877F00BEDA67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F910D09C27A2877F00BEDA67 /* Build configuration list for PBXNativeTarget "Langaku-webview-sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F910D09D27A2877F00BEDA67 /* Debug */,
+				F910D09E27A2877F00BEDA67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F910D09F27A2877F00BEDA67 /* Build configuration list for PBXNativeTarget "Langaku-webview-sampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F910D0A027A2877F00BEDA67 /* Debug */,
+				F910D0A127A2877F00BEDA67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F910D0A227A2877F00BEDA67 /* Build configuration list for PBXNativeTarget "Langaku-webview-sampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F910D0A327A2877F00BEDA67 /* Debug */,
+				F910D0A427A2877F00BEDA67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F910D06A27A2877F00BEDA67 /* Project object */;
+}
